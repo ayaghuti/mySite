@@ -1,0 +1,49 @@
+* {
+  color: black !important;
+}
+header {
+  background: url(img/almond-bg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+  color: black;
+}
+
+nav.brand-logo {
+  padding-left: 40px;
+  color: black;
+  font-weight: 400;
+}
+
+header nav .brand-logo {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    min-height: 500px;
+  }
+  header nav .brand-logo {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  header nav .brand-logo {
+    font-size: 0.8rem !important;
+  }
+}
+
+#portfolio p {
+  font-size: 2em;
+}
+#portfolio ul li a {
+  font-size: 1.6em;
+  color: hsla(342, 100%, 50%, 0.924) !important;
+}
+#education {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#skills span{
+  font-size: .6em;
+}
