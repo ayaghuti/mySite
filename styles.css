@@ -29,8 +29,9 @@ header nav .brand-logo {
 }
 @media screen and (max-width: 450px) {
   header nav .brand-logo {
-    left: 40%;
+    left: 40% !important;
     font-size: 1rem !important;
+    font-weight: bold;
   }
 }
 
