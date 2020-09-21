@@ -17,21 +17,31 @@ nav.brand-logo {
 
 header nav .brand-logo {
   margin-left: 20px;
+  /* left: 45%; */
 }
 
+@media screen and (max-width: 980px) {
+  header nav .brand-logo {
+    margin-left: 0px;
+  }
+}
 @media screen and (max-width: 760px) {
   header {
+    /* width: 100%; */
     min-height: 500px;
   }
   header nav .brand-logo {
     font-size: 1.2rem !important;
+    left: 40%;
   }
 }
+
 @media screen and (max-width: 450px) {
   header nav .brand-logo {
-    left: 40% !important;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     font-weight: bold;
+    padding-left: 20px;
+    left: 40%;
   }
 }
 
@@ -46,6 +56,6 @@ header nav .brand-logo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#skills span{
-  font-size: .6em;
+#skills span {
+  font-size: 0.6em;
 }
